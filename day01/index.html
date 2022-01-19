@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>react 基本使用</title>
+</head>
+<body>
+  <div id="root"></div>
+
+
+
+  <script src="./node_modules/react/umd/react.development.js"></script>
+  <script src="./node_modules/react-dom/umd/react-dom.development.js"></script>
+
+  <script>
+    // 元素名称
+    // 元素属性
+    // 元素的子节点
+    const title = React.createElement('h1', null , 'hello,react')
+
+
+    // 渲染react
+    ReactDOM.render(title,document.getElementById('root'))
+
+  </script>
+</body>
+</html>
