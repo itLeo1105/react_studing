@@ -43,7 +43,11 @@ Apps.propTypes={
     price:propTypes.number
   }) // {area:'XXXX',price:12} 特定对象结构 shape
 }
-
-
+/**
+ * 传入默认值
+ */
+// Apps.defaulProps = {
+//   pageSize:10
+// }
 
 ReactDOM.render(<Apps color={666}/>,document.getElementById('root'))

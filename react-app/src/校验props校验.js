@@ -35,15 +35,8 @@ const Apps =(props)=>{
 //   }
 // }
 Apps.propTypes={
-  color:propTypes.array,
-  a:propTypes.number, // 数字
-  fn:propTypes.func.isRequired, // 校验必填
-  filter:propTypes.shape({
-    area:propTypes.string,
-    price:propTypes.number
-  }) // {area:'XXXX',price:12} 特定对象结构 shape
+  color:propTypes.array
 }
-
 
 
 ReactDOM.render(<Apps color={666}/>,document.getElementById('root'))
